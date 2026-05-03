@@ -16,7 +16,7 @@ const PORT = ENV.PORT || 3000;
 app.use(express.json({ limit: "5mb" })); // req.body
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chattify-chi.vercel.app",
     credentials: true,
   })
 );
